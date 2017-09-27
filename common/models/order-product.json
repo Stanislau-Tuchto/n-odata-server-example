@@ -34,7 +34,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "comments": {
+      "type": "hasMany",
+      "model": "ProductComment",
+      "foreignKey": "productId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

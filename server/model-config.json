@@ -76,5 +76,9 @@
   "OrderProduct": {
     "dataSource": "db",
     "public": true
+  },
+  "ProductComment": {
+    "dataSource": "db",
+    "public": true
   }
 }
